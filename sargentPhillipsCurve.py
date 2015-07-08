@@ -114,4 +114,4 @@ plt.show()
 
 # ## Remarks
 # 
-# There is a visible downward-sloping relationship between the inflation rate and the rate of unemployment over the business cycle. The relationship is less-pronounced under HP filtering relative to that revealed under BP filtering. The so-called Phillips are not apparent in the HP-filtered data.
+# There is a visible downward-sloping relationship between the inflation rate and the rate of unemployment over the business cycle. The relationship is less-pronounced under HP filtering relative to the relationship revealed by BP filtering. The so-called Phillips loops are not apparent in the HP-filtered data.
