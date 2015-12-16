@@ -62,6 +62,7 @@ ax.set_title('US inflation and unemployment: BP-filtered data',fontsize=25)
 
 scatter = ax.scatter([], [])
 text = ax.text(1.95, 4.35, '',fontsize=18,horizontalalignment='right')
+ax.text(1.125,-3.75, 'Created by Brian C Jenkins',fontsize=11, color='black',alpha=0.5)
 
 
 # In[4]:
