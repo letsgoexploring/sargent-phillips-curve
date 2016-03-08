@@ -95,6 +95,6 @@ plt.savefig('US_Inflation_Unemployment_Monthly_BP_Filtered.png',bbox_inches='tig
 # In[6]:
 
 # Convert the mp4 video to ogg format
-makeOgg = 'ffmpeg -i US_Inflation_Unemployment_Monthly_BP_Filtered.mp4 -acodec libvorbis -ac 2 -ab 128k -ar 44100 -b:v 1800k  US_Inflation_Unemployment_Monthly_BP_Filtered.ogv'
-subprocess.call(makeOgg,shell=True)
+# makeOgg = 'ffmpeg -i US_Inflation_Unemployment_Monthly_BP_Filtered.mp4 -acodec libvorbis -ac 2 -ab 128k -ar 44100 -b:v 1800k  US_Inflation_Unemployment_Monthly_BP_Filtered.ogv'
+# subprocess.call(makeOgg,shell=True)
 
