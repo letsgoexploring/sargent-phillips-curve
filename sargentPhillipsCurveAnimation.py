@@ -85,7 +85,8 @@ writer = Writer(fps=10, metadata=dict(artist='Brian C Jenkins'), bitrate=5000)
 ani = animation.FuncAnimation(fig, update_plot, frames = n,fargs = (), blit=False,repeat=False,interval=20)
 
 # Save the animation as .mp4
-ani.save('US_Inflation_Unemployment_Monthly_BP_Filtered.mp4',writer=writer)
+ani.save('US_Inflation_Unemployment_Monthly_BP_Filtered.ogv',fps=10,codec=libx264)
+# ani.save('US_Inflation_Unemployment_Monthly_BP_Filtered.mp4',writer=writer)
 
 # Save the final image of the animation to use as the still image placeholder
 plt.savefig('US_Inflation_Unemployment_Monthly_BP_Filtered.png',bbox_inches='tight',dpi=120)
